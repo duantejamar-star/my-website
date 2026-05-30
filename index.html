@@ -1,25 +1,39 @@
-html<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+css/* Reset default margins and set font */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
 
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <a href="#" class="nav-link">Home</a>
-        <a href="#" class="nav-link">About</a>
-        <a href="#" class="nav-link">Contact</a>
-    </nav>
+/* Navigation Bar styling */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
-    <!-- Main Content Area -->
-    <main class="content-box">
-        <h1>Welcome to my website</h1>
-        <p>This is my first website.</p>
-    </main>
+/* Navigation Links styling */
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
 
-</body>
-</html>
+.nav-link:hover {
+    color: #00bcd4;
+}
+
+/* Main Content Box styling */
+.content-box {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+}
